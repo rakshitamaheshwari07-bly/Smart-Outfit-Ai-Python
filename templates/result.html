@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h2>Recommended Outfits</h2>
+
+<div class="grid">
+{% for item in outfits %}
+<div class="card">
+
+<h3>{{ item.name }}</h3>
+
+<p>{{ item.top }}</p>
+<p>{{ item.bottom }}</p>
+<p>{{ item.footwear }}</p>
+<p>{{ item.accessories }}</p>
+
+<p class="price">₹{{ item.price }}</p>
+
+<a href="{{ item.myntra }}" class="btn">Myntra</a>
+<a href="{{ item.amazon }}" class="btn">Amazon</a>
+<a href="{{ item.meesho }}" class="btn">Meesho</a>
+
+</div>
+{% endfor %}
+</div>
+
+<a href="/" class="btn">Back</a>
+
+</body>
+</html>

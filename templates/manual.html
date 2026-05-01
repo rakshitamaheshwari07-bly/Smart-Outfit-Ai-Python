@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h2>Enter Details</h2>
+
+<form method="POST">
+
+<label>Gender:</label>
+<select name="gender">
+    <option>Male</option>
+    <option>Female</option>
+</select>
+
+<label>Body Type:</label>
+<select name="body_type">
+    <option>Pear</option>
+    <option>Rectangle</option>
+    <option>Hourglass</option>
+    <option>Apple</option>
+</select>
+
+<label>Occasion:</label>
+<select name="occasion">
+    <option>College</option>
+    <option>Party</option>
+    <option>Wedding</option>
+    <option>Formal</option>
+</select>
+
+<label>Skin Tone:</label>
+<select name="skin_tone">
+    <option>Fair</option>
+    <option>Medium</option>
+    <option>Dark</option>
+</select>
+
+<label>Budget:</label>
+<select name="budget">
+    <option value="0-399">0-399</option>
+    <option value="400-999">400-999</option>
+    <option value="1000-3000">1000-3000</option>
+    <option value="3000-7000">3000-7000</option>
+</select>
+
+<br><br>
+<button type="submit">Get Outfit</button>
+
+</form>
+
+</body>
+</html>
