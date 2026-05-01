@@ -40,8 +40,10 @@ It uses AI (Gemini API) to generate personalized fashion suggestions based on us
 2. Run the application:
    python app.py
 
-3. Open in browser:
-   http://127.0.0.1:5000/
+3.  🚀 Live Demo
+👉 https://909b82b3-766b-4199-b50f-95f71a3e7d49-00-3tys20ozhvdra.sisko.replit.dev/
+
+Click the link above to access the working web application.
 
 ---
 
