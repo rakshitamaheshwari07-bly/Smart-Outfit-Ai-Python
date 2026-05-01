@@ -1,15 +1,15 @@
-## Features
-- AI-based outfit recommendations
-- User input based suggestions
-- Budget filtering
-- Shopping links integration
-
-## Technologies Used
+## 🚀 Technologies Used
 - Python
 - Flask
 - Gemini API
 
-## How to Run
-1. Install dependencies
-2. Run: python app.py
-3. Open: http://127.0.0.1:5000
+## ▶️ How to Run the Project
+
+1. Install dependencies:
+   pip install flask google-generativeai
+
+2. Run the application:
+   python app.py
+
+3. Open in browser:
+   http://127.0.0.1:5000/
