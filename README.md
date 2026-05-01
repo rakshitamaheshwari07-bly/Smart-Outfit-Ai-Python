@@ -41,7 +41,7 @@ It uses AI (Gemini API) to generate personalized fashion suggestions based on us
    python app.py
 
 3.  🚀 Live Demo
-👉 https://909b82b3-766b-4199-b50f-95f71a3e7d49-00-3tys20ozhvdra.sisko.replit.dev/
+https://smart-outfit-ai-python--rakshitamaheshw.replit.app
 
 Click the link above to access the working web application.
 
